@@ -32,8 +32,8 @@ class Vector(object):
         return self.coordinates == v.coordinates 
     
 
-v = Vector([8.218 , -9.341])
+v = Vector([1.671 , -1.012,-0.318])
 w = Vector([-8.223 ,0.878])
-
-print v.plus(w)
+c = 7.41
+print v.times_scalar(c)
 
